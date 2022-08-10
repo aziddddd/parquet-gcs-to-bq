@@ -1,0 +1,44 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "stamp",
+    "field_type": "TIMESTAMP"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "status_id",
+    "field_type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "createdby",
+    "field_type": "NUMERIC"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "date",
+    "field_type": "DATETIME"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "attributes",
+    "field_type": "RECORD",
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "when",
+        "field_type": "STRING"
+      },
+      {
+          "mode": "NULLABLE",
+          "name": "code",
+          "field_type": "STRING"
+      },
+      {
+          "mode": "NULLABLE",
+          "name": "unit",
+          "field_type": "STRING"
+      }
+    ]
+  }
+]
